@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(231, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 100vh;
+}
+
+.carre {
+    height: 200px;
+    width: 200px;
+    background: rgb(252, 0, 0);
+    justify-content: center;
+    align-items: center;
+    transition: 1.5s;
+    font-size: 80px;
+    color: rgb(252, 0, 0);
+    display: flex;
+}
+
+.active{
+    background: black;
+    transform: scale(1.5) rotate(360deg);
+}
+ion-icon {
+    color: white;
+}
+#facebook {
+    background-color: #4267B2;
+}
+#twitter {
+    background-color: #1DA1F2;
+}
+#instagram {
+   background-color: #E1306C; 
+}
